@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Terminal, FileText, ChevronDown } from 'lucide-react';
 
-const CV_FR = "https://drive.google.com/file/d/1QI6TJuoWKtNUOnT0kF2fFdEz_E8xay_Y/preview";
-const CV_EN = "https://drive.google.com/file/d/1_WQs2lxayz0ufFKDTfp-jPIaSPgNKr6N/preview";
+const CV_FR = "https://drive.google.com/file/d/19xkvav_fr0VX_p4GyfF-Wy_6yRQHET-y/preview";
+const CV_EN = "https://drive.google.com/file/d/1Moh6mrt1UGIcEqI7BV7psExhawb9B8fQ/preview";
 
 export function Navbar() {
   const [cvOpen, setCvOpen] = useState(false);
