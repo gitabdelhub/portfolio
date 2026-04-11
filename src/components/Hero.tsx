@@ -2,9 +2,10 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { FileText, ChevronDown } from 'lucide-react';
 
-const CV_FR = "https://drive.google.com/file/d/19xkvav_fr0VX_p4GyfF-Wy_6yRQHET-y/view?usp=drive_link";
-const CV_EN = "https://drive.google.com/file/d/1Moh6mrt1UGIcEqI7BV7psExhawb9B8fQ/view?usp=drive_link";
-
+// Chemins locaux pointant vers ton dossier /public
+// On utilise les noms exacts que Git a validé lors du dernier push
+const CV_FR = "/CV_Abdallah_ASSOUMANOU_FR_NEW.pdf";
+const CV_EN = "/CV_Abdallah_ASSOUMANOU_EN_NEW.pdf";
 
 export function Hero() {
   const [cvOpen, setCvOpen] = useState(false);
@@ -69,8 +70,7 @@ export function Hero() {
                 >
                   <a
                     href={CV_FR}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    download="CV_Abdallah_ASSOUMANOU_FR.pdf"
                     onClick={() => setCvOpen(false)}
                     className="flex items-center gap-2 px-4 py-3 text-slate-600 font-mono text-sm hover:bg-slate-50 transition-colors whitespace-nowrap"
                   >
@@ -78,8 +78,7 @@ export function Hero() {
                   </a>
                   <a
                     href={CV_EN}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    download="CV_Abdallah_ASSOUMANOU_EN.pdf"
                     onClick={() => setCvOpen(false)}
                     className="flex items-center gap-2 px-4 py-3 text-slate-600 font-mono text-sm hover:bg-slate-50 transition-colors whitespace-nowrap border-t border-slate-100"
                   >
