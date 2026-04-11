@@ -5,6 +5,7 @@ import { FileText, ChevronDown } from 'lucide-react';
 const CV_FR = "https://drive.google.com/uc?export=download&id=19xkvav_fr0VX_p4GyfF-Wy_6yRQHET-y";
 const CV_EN = "https://drive.google.com/uc?export=download&id=1Moh6mrt1UGIcEqI7BV7psExhawb9B8fQ";
 
+
 export function Hero() {
   const [cvOpen, setCvOpen] = useState(false);
 

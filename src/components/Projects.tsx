@@ -26,19 +26,16 @@ export function Projects() {
       images: null,
     },
     {
-      icon: <BrainCircuit size={40} strokeWidth={1} />,
-      title: "MLOps Chess Elo",
-      description:
-        "Built an automated ML pipeline for a class project that predict Chess Elo ratings using XGBoost. Deployed via FastAPI, containerized with Docker, orchestrated on Kubernetes, with full CI/CD on GitHub Actions.",
-      tech: ["Python", "XGBoost", "FastAPI", "Docker", "Kubernetes", "CI/CD"],
-      github: "https://github.com/YOUR_USERNAME/YOUR_MLOPS_REPO",
-      images: null,
-    },
-    {
       icon: <Zap size={40} strokeWidth={1} />,
       title: "LiveSport Pipeline",
-      description:
-        "A real-time sports analytics pipeline ingesting live match stats via API, processed with Spark Streaming, and stored in a Databricks Delta Lake.  PENDING....",
+      description: (
+        <>
+          A real-time sports analytics pipeline ingesting live match stats via API, 
+          processed with Spark Streaming, and stored in a Databricks Delta Lake.
+          <br />
+          *PENDING....
+        </>
+      ),
       tech: ["Kafka", "Spark Streaming", "Databricks", "Delta Lake", "API-Football"],
       github: "https://github.com/YOUR_USERNAME/YOUR_LIVESPORT_REPO",
       images: null,
