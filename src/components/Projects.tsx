@@ -28,15 +28,6 @@ export function Projects() {
     {
       icon: <Zap size={40} strokeWidth={1} />,
       title: "LiveSport Pipeline",
-      description:
-        "A real-time sports analytics pipeline ingesting live match stats via API, processed with Spark Streaming, and stored in a Databricks Delta Lake. \n*3 PENDING....",
-      tech: ["Kafka", "Spark Streaming", "Databricks", "Delta Lake", "API-Football"],
-      github: "https://github.com/YOUR_USERNAME/YOUR_LIVESPORT_REPO",
-      images: null,
-    },
-    {
-      icon: <Zap size={40} strokeWidth={1} />,
-      title: "LiveSport Pipeline",
       description: (
         <>
           A real-time sports analytics pipeline ingesting live match stats via API, 
