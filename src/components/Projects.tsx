@@ -25,7 +25,7 @@ export function Projects() {
       github: "https://github.com/gitabdelhub/streamify-data-warehouse",
       images: null,
     },
- {
+    {
       icon: <Cloud size={40} strokeWidth={1} />,
       title: "Azure Medallion Pipeline",
       description:
@@ -43,12 +43,12 @@ export function Projects() {
       github: "https://github.com/YOUR_USERNAME/YOUR_RAGINSTEIN_REPO",
       images: null,
     },
-  {
+    {
       icon: <Zap size={40} strokeWidth={1} />,
       title: "LiveSport Pipeline",
       description: (
         <>
-          A real-time sports analytics pipeline ingesting live match stats via API, 
+          A real-time sports analytics pipeline ingesting live match stats via API,
           processed with Spark Streaming, and stored in a Databricks Delta Lake.
           <br />
           *PENDING....
