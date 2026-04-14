@@ -25,7 +25,25 @@ export function Projects() {
       github: "https://github.com/gitabdelhub/streamify-data-warehouse",
       images: null,
     },
+ {
+      icon: <Cloud size={40} strokeWidth={1} />,
+      title: "Azure Medallion Pipeline",
+      description:
+        "An end-to-end ETL pipeline following the Medallion Architecture. Ingests consumer data via Azure Data Factory, processes it through Bronze/Silver/Gold layers using Databricks (PySpark), and delivers business insights via Power BI.",
+      tech: ["Azure Data Factory", "Azure Databricks", "PySpark", "ADLS Gen2", "Power BI"],
+      github: "https://github.com/gitabdelhub/azure-etl-pipeline",
+      images: null,
+    },
     {
+      icon: <BarChart2 size={40} strokeWidth={1} />,
+      title: "RAGinstein",
+      description:
+        "A hybrid search engine built from scratch. Combines semantic vector search with traditional lexical search (BM25). Features automated re-ranking and grounded answer generation using the Gemini API.",
+      tech: ["Python", "Gemini API", "ChromaDB", "BM25", "Hybrid Search", "FastAPI"],
+      github: "https://github.com/YOUR_USERNAME/YOUR_RAGINSTEIN_REPO",
+      images: null,
+    },
+  {
       icon: <Zap size={40} strokeWidth={1} />,
       title: "LiveSport Pipeline",
       description: (
@@ -38,24 +56,6 @@ export function Projects() {
       ),
       tech: ["Kafka", "Spark Streaming", "Databricks", "Delta Lake", "API-Football"],
       github: "https://github.com/YOUR_USERNAME/YOUR_LIVESPORT_REPO",
-      images: null,
-    },
- {
-      icon: <Cloud size={40} strokeWidth={1} />,
-      title: "Azure Medallion Pipeline",
-      description:
-        "An end-to-end ETL pipeline following the Medallion Architecture. Ingests consumer data via Azure Data Factory, processes it through Bronze/Silver/Gold layers using Databricks (PySpark), and delivers business insights via Power BI.",
-      tech: ["Azure Data Factory", "Azure Databricks", "PySpark", "ADLS Gen2", "Power BI"],
-      github: "https://github.com/YOUR_USERNAME/YOUR_AZURE_MEDALLION_REPO",
-      images: null,
-    },
-    {
-      icon: <BarChart2 size={40} strokeWidth={1} />,
-      title: "RAGinstein",
-      description:
-        "A hybrid search engine built from scratch. Combines semantic vector search with traditional lexical search (BM25). Features automated re-ranking and grounded answer generation using the Gemini API.",
-      tech: ["Python", "Gemini API", "ChromaDB", "BM25", "Hybrid Search", "FastAPI"],
-      github: "https://github.com/YOUR_USERNAME/YOUR_RAGINSTEIN_REPO",
       images: null,
     },
     {
