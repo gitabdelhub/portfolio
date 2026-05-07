@@ -40,7 +40,7 @@ export function Projects() {
       description:
         "A hybrid search engine built from scratch. Combines semantic vector search with traditional lexical search (BM25). Features automated re-ranking and grounded answer generation using the Gemini API.",
       tech: ["Python", "Gemini API", "ChromaDB", "BM25", "Hybrid Search", "FastAPI"],
-      github: "https://github.com/YOUR_USERNAME/YOUR_RAGINSTEIN_REPO",
+      github: "https://github.com/gitabdelhub/RAGinstein-Hybrid-Search-Engine",
       images: null,
     },
     {
