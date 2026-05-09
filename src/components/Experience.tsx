@@ -1,6 +1,6 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion'; // Correction de l'import pour la version standard
 import { Briefcase, GraduationCap, Award, ExternalLink } from 'lucide-react';
- 
+
 export function Experience() {
   const education = [
     {
@@ -21,7 +21,7 @@ export function Experience() {
       ],
     },
   ];
- 
+
   const experiences = [
     {
       role: "Data Scientist Intern",
@@ -44,13 +44,13 @@ export function Experience() {
       ],
     },
   ];
- 
+
   const certifications = [
     {
       title: "Data Engineer Certificate",
       issuer: "DataCamp",
       date: "Coming soon",
-      url: "YOUR_DATACAMP_CERT_URL",
+      url: "#",
     },
     {
       title: "Data Engineer Associate",
@@ -61,8 +61,9 @@ export function Experience() {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services (AWS)",
-      date: " May 2026",
-      url:"https://www.credly.com/badges/ec7263c9-e301-44f0-bf68-bfdf8dc3d8cd/linked_in_profile/public_url",
+      date: "May 2026",
+      // URL corrigée pour le portfolio (format public standard)
+      url: "https://www.credly.com/badges/ec7263c9-e301-44f0-bf68-bfdf8dc3d8cd/public_url",
     },
     {
       title: "Supervised Machine Learning: Regression & Classification",
@@ -77,9 +78,9 @@ export function Experience() {
       url: "https://www.credly.com/badges/41b4bdad-add1-422e-a66c-9c3a05caf31f/public_url",
     },
   ];
- 
+
   const cardClass = "bg-white border border-slate-200 hover:border-blue-300 rounded-xl p-6 transition-colors shadow-sm";
- 
+
   return (
     <section id="experience" className="scroll-mt-24">
       <motion.div
@@ -97,7 +98,7 @@ export function Experience() {
           </h2>
           <div className="h-px bg-slate-200 flex-grow max-w-xs"></div>
         </div>
- 
+
         {/* Education */}
         <div>
           <div className="flex items-center gap-3 mb-8">
@@ -126,7 +127,7 @@ export function Experience() {
             ))}
           </div>
         </div>
- 
+
         {/* Experience */}
         <div>
           <div className="flex items-center gap-3 mb-8">
@@ -155,7 +156,7 @@ export function Experience() {
             ))}
           </div>
         </div>
- 
+
         {/* Clubs & Community */}
         <div>
           <div className="flex items-center gap-3 mb-8">
@@ -182,7 +183,7 @@ export function Experience() {
                 </li>
               </ul>
             </motion.div>
- 
+
             <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className={cardClass}>
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                 <div>
@@ -193,7 +194,7 @@ export function Experience() {
             </motion.div>
           </div>
         </div>
- 
+
         {/* Certifications */}
         <div>
           <div className="flex items-center gap-3 mb-8">
