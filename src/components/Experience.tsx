@@ -59,10 +59,10 @@ export function Experience() {
       url: "https://www.datacamp.com/certificate/DEA0017674085993",
     },
     {
-      title: "AWS Academy Graduate — Cloud Foundations",
+      title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services (AWS)",
-      date: "Jan 2026",
-      url: "https://www.credly.com/badges/45da2664-1cd1-4fa9-b644-a84c938d3174/public_url",
+      date: " May 2026",
+      url:"https://www.credly.com/badges/ec7263c9-e301-44f0-bf68-bfdf8dc3d8cd/linked_in_profile/public_url",
     },
     {
       title: "Supervised Machine Learning: Regression & Classification",
