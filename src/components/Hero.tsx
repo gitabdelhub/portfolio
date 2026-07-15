@@ -36,7 +36,7 @@ export function Hero() {
 
         <p className="max-w-2xl text-lg text-slate-500 leading-relaxed pt-4">
           I'm a data engineering student graduating in 2027, passionate about building systems
-          where data actually does something useful. Currently seeking a PFA internship. I enjoy
+          where data actually does something useful. Currently seeking a PFE internship. I enjoy
           hard problems, clean architecture, and good laughs.
         </p>
 
