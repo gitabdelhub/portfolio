@@ -38,9 +38,9 @@ export function Experience() {
       company: "D&A Technologies",
       date: "Jul 2026 — Sep 2026 · 2 months",
       details: [
-        "Designing and building a production AI & Analytics Portal on a microservices architecture, centralizing business KPI access.",
-        "Developing data ingestion pipelines to consolidate heterogeneous sources into a unified PostgreSQL layer.",
-        "Contributing to a natural language chatbot (NLP/LLM) letting business users query backend data without SQL.",
+        "Designed and built a production AI & Analytics Portal on a microservices architecture, centralizing business KPI access.",
+        "Developed data ingestion pipelines to consolidate heterogeneous sources into a unified PostgreSQL layer.",
+        "Contributed to a natural language chatbot (NLP/LLM) letting business users query backend data without SQL.",
       ],
     },
   ];
@@ -185,6 +185,26 @@ export function Experience() {
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className={cardClass}>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-4">
+                <div>
+                  <h4 className="text-slate-900 font-bold text-lg">Founding and Organizing Committee</h4>
+                  <p className="text-blue-600 font-mono text-sm mt-1">@ ENSIAS Wellbeing Community</p>
+                </div>
+                <span className="font-mono text-xs text-slate-700 whitespace-nowrap">2025 — Present</span>
+              </div>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3 text-slate-700 text-sm leading-relaxed">
+                  <span className="text-blue-500 mt-1 text-xs">▹</span>
+                  <span>Selected by the founding professor to help launch the community and support its early activities.</span>
+                </li>
+                <li className="flex items-start gap-3 text-slate-700 text-sm leading-relaxed">
+                  <span className="text-blue-500 mt-1 text-xs">▹</span>
+                  <span>Organized ENSIAS's first mental health awareness workshop.</span>
+                </li>
+              </ul>
+            </motion.div>
+
+            <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className={cardClass}>
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                 <div>
                   <h4 className="text-slate-900 font-bold text-lg">Volunteer</h4>
