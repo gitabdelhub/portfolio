@@ -34,13 +34,13 @@ export function Experience() {
       ],
     },
     {
-      role: "Looking for PFA Internship",
-      company: "Your Company?",
-      date: "Summer 2026",
+      role: "Data Engineering & AI Intern",
+      company: "D&A Technologies",
+      date: "Jul 2026 — Sep 2026 · 2 months",
       details: [
-        "Looking for a PFA internship in Data Engineering and AI, eager to work on real problems and learn from experienced engineers.",
-        "Comfortable with data pipelines and AI systems, and always looking to expand my skills.",
-        "I learn fast, adapt quickly, and I am not afraid of challenges.",
+        "Designing and building a production AI & Analytics Portal on a microservices architecture, centralizing business KPI access.",
+        "Developing data ingestion pipelines to consolidate heterogeneous sources into a unified PostgreSQL layer.",
+        "Contributing to a natural language chatbot (NLP/LLM) letting business users query backend data without SQL.",
       ],
     },
   ];
