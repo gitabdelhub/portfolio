@@ -4,8 +4,8 @@ import { FileText, ChevronDown } from 'lucide-react';
 
 // Chemins locaux pointant vers ton dossier /public
 // On utilise les noms exacts que Git a validé lors du dernier push
-const CV_FR = "/CV_Abdallah_ASSOUMANOU_FR_NEW.pdf";
-const CV_EN = "/CV_Abdallah_ASSOUMANOU_EN_NEW.pdf";
+const CV_FR = "/CV_FR_ACTUEL.pdf";
+const CV_EN = "/CV_ENG_ACTUEL.pdf";
 
 export function Hero() {
   const [cvOpen, setCvOpen] = useState(false);
