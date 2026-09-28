@@ -15,9 +15,8 @@ export function Contact() {
         <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Get In Touch</h2>
 
         <p className="text-slate-700 mb-10 leading-relaxed">
-          I'm currently looking for a PFA internship for this summer and keeping an eye out for
-          PFE opportunities next year. Whether you have a position available, or just want to
-          say hi, I'll try my best to get back to you!
+          I'm currently seeking a graduation internship (PFE) where I can bring value to high-impact Data & AI projects.
+          Whether you have an opportunity, want to discuss a project, or just want to connect, feel free to reach out!
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

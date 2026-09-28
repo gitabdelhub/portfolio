@@ -4,22 +4,21 @@ export function About() {
   const skills = [
     "Python (PySpark, Pandas)",
     "SQL (PostgreSQL, Snowflake)",
+    "Microsoft Fabric & Power BI",
+    "Databricks & Delta Lake",
     "Apache Spark & Kafka",
     "dbt & Airflow",
     "AWS & Azure",
     "Docker & Kubernetes",
     "MLflow & Scikit-Learn",
-    "Power BI",
+    "LangChain & LLM APIs",
     "Git & CI/CD",
-    "Databricks & Delta Lake",
-    "LangChain & Hugging Face",
-    "Great Expectations",
   ];
 
   const learning = [
-    "Databricks & Delta Lake",
-    "LangChain & Hugging Face",
-    "Great Expectations",
+    "Agentic AI & LangGraph",
+    "Real-time Streaming Architectures",
+    "Advanced MLOps",
   ];
 
   return (
@@ -41,15 +40,13 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-4 text-slate-800 leading-relaxed">
             <p>
-              I'm a second-year engineering student at ENSIAS, specializing in Data Engineering and AI.
+              I'm a final-year engineering student at ENSIAS, specializing in Data Engineering and AI.
             </p>
             <p>
-              I'm currently looking for a PFA internship this summer in a challenging environment
-              where I can contribute and grow fast.
+              I'm currently seeking an end-of-studies internship (PFE) in a challenging environment where I can contribute to mission-critical data & AI initiatives and create measurable impact.
             </p>
             <p>
-              I'm also preparing for my PFE next year, aiming to work on a high-impact project
-              with a good company.
+              Passionate about building scalable data pipelines, robust medallion architectures, and intelligent LLM-driven applications.
             </p>
 
             <div className="pt-4">

@@ -227,7 +227,7 @@ export function Experience() {
                   <h4 className="text-slate-900 font-bold text-lg">Data Cell Lead</h4>
                   <p className="text-blue-600 font-mono text-sm mt-1">@ Neurodynamics Club, ENSIAS</p>
                 </div>
-                <span className="font-mono text-xs text-slate-700 whitespace-nowrap">Incoming - 2025/2026</span>
+                <span className="font-mono text-xs text-slate-700 whitespace-nowrap">2025 - Present</span>
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start gap-3 text-slate-700 text-sm leading-relaxed">
