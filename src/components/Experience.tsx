@@ -53,7 +53,7 @@ export function Experience() {
     {
       degree: "Engineering Degree - Data Engineering & AI",
       school: "ENSIAS - École Nationale Supérieure d'Informatique et d'Analyse des Systèmes",
-      date: "Jul 2024 - Jul 2027",
+      date: "2024 - 2027",
       details: [
         "Specializing in Data Engineering, Distributed Systems, and Artificial Intelligence.",
         "Relevant coursework: Database Management, Big Data, Machine Learning, Cloud Computing, Distributed Systems.",
@@ -62,9 +62,10 @@ export function Experience() {
     {
       degree: "DEUST - Mathematics, Informatics & Physics",
       school: "Université Sultan Moulay Slimane",
-      date: "Nov 2022 - Aug 2024",
+      date: "2022 - 2024",
       details: [
         "Foundational studies in mathematics, computer science, and physics.",
+        "Graduated with highest honors (Mention Très Bien).",
       ],
     },
   ];
@@ -72,7 +73,7 @@ export function Experience() {
   // Reordered: newest first (2026 then 2025)
   const experiences = [
     {
-      role: "Data Engineering & AI Intern",
+      role: "AI Data Engineering Intern",
       company: "D&A Technologies",
       date: "Jul 2026 - Aug 2026 (2 months)",
       details: [
@@ -96,7 +97,7 @@ export function Experience() {
   // Ordered by importance / prestige
   const certifications = [
     {
-      title: "Microsoft Certified: Fabric Analytics Engineer Associate",
+      title: "Microsoft Certified: Fabric Data Engineer Associate",
       badge: "DP-700",
       issuer: "Microsoft",
       date: "2026",
@@ -264,10 +265,17 @@ export function Experience() {
             <motion.div initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className={cardClass}>
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
                 <div>
-                  <h4 className="text-slate-900 font-bold text-lg">Volunteer</h4>
+                  <h4 className="text-slate-900 font-bold text-lg">Active Member</h4>
                   <p className="text-blue-600 font-mono text-sm mt-1">@ CINDH ENSIAS</p>
                 </div>
+                <span className="font-mono text-xs text-slate-700 whitespace-nowrap">2025 - Present</span>
               </div>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-3 text-slate-700 text-sm leading-relaxed">
+                  <span className="text-blue-500 mt-1 text-xs">▹</span>
+                  <span>Took part in socio-medical caravans and sustainable development projects (well drilling, rural schools).</span>
+                </li>
+              </ul>
             </motion.div>
           </div>
         </div>
