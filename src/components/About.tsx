@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 export function About() {
   const skills = [
     "Python (PySpark, Pandas)",
-    "SQL (PostgreSQL)",
+    "SQL (PostgreSQL, Snowflake)",
     "Microsoft Fabric & Power BI",
     "Databricks & Delta Lake",
     "Apache Spark & Kafka",

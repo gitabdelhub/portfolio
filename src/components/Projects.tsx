@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Github, Database, BrainCircuit, Activity, ShieldCheck, BarChart2, Cloud, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Github, Database, BrainCircuit, Activity, ShieldCheck, Zap, BarChart2, Cloud, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 type Project = {
   icon: JSX.Element;
@@ -20,7 +20,7 @@ export function Projects() {
       icon: <Database size={40} strokeWidth={1} />,
       title: "Streamify (Data Warehouse)",
       description:
-        "Built an end-to-end Data Warehouse for a fictional streaming platform using Medallion Architecture. Ingested and cleaned data from 2 source systems (CRM and ERP), modeled a Constellation Schema with 2 fact tables and 5 shared dimensions, and delivered a Power BI dashboard tracking MRR, churn, and watch time. Includes a churn prediction model.",
+        "Built an end-to-end Data Warehouse for a fictional streaming platform using Medallion Architecture. Ingested and cleaned data from 2 source systems (CRM and ERP), modeled a Constellation Schema with 2 fact tables and 5 shared dimensions, and delivered a Power BI dashboard tracking MRR, churn, and watch time. Includes a recommendation system and churn prediction model.",
       tech: ["SQL Server", "Medallion Architecture", "Power BI", "Python", "Scikit-Learn"],
       github: "https://github.com/gitabdelhub/streamify-data-warehouse",
       images: null,
@@ -44,6 +44,15 @@ export function Projects() {
       images: null,
     },
     {
+      icon: <Zap size={40} strokeWidth={1} />,
+      title: "LiveSport Pipeline (In Progress)",
+      description:
+        "Currently in development. A real-time sports analytics pipeline ingesting live match stats via API, processed with Spark Streaming, and stored in a Databricks Delta Lake for real-time analytics and reporting.",
+      tech: ["Kafka", "Spark Streaming", "Databricks", "Delta Lake", "API-Football"],
+      github: null,
+      images: null,
+    },
+    {
       icon: <ShieldCheck size={40} strokeWidth={1} />,
       title: "Secure Cloud Banking",
       description:
@@ -56,7 +65,7 @@ export function Projects() {
       icon: <Activity size={40} strokeWidth={1} />,
       title: "YOUAL (HealthTech)",
       description:
-        "Built a full-stack medical practice management platform handling patient records, appointments, and medical history.",
+        "Built a full-stack medical practice management platform handling patient records, appointments, and medical history. Deployed and production-ready.",
       tech: ["Next.js 14", "Prisma", "TypeScript"],
       github: null,
       images: [
