@@ -17,6 +17,15 @@ export function Projects() {
 
   const projects: Project[] = [
     {
+      icon: <ShoppingCart size={40} strokeWidth={1} />,
+      title: "ShopFlow (Microsoft Fabric)",
+      description:
+        "An end-to-end e-commerce funnel analytics platform on Microsoft Fabric. Ingests 15M+ browsing events through a Medallion Architecture (Bronze/Silver/Gold) with PySpark and Delta Lake, models a Star Schema (1 fact table, 4 dimensions), and serves a Power BI conversion funnel dashboard via Direct Lake. Orchestrated with a Fabric Data Pipeline.",
+      tech: ["Microsoft Fabric", "PySpark", "Delta Lake", "Data Pipeline", "Power BI", "Direct Lake"],
+      github: "https://github.com/gitabdelhub/FABRIC_ECOMMERCE_FUNNEL_PROJECT",
+      images: null,
+    },
+    {
       icon: <Database size={40} strokeWidth={1} />,
       title: "Streamify (Data Warehouse)",
       description:
@@ -35,15 +44,6 @@ export function Projects() {
       images: null,
     },
     {
-      icon: <ShoppingCart size={40} strokeWidth={1} />,
-      title: "ShopFlow (Microsoft Fabric)",
-      description:
-        "An end-to-end e-commerce funnel analytics platform on Microsoft Fabric. Ingests 15M+ browsing events through a Medallion Architecture (Bronze/Silver/Gold) with PySpark and Delta Lake, models a Star Schema (1 fact table, 4 dimensions), and serves a Power BI conversion funnel dashboard via Direct Lake. Orchestrated with a Fabric Data Pipeline.",
-      tech: ["Microsoft Fabric", "PySpark", "Delta Lake", "Data Pipeline", "Power BI", "Direct Lake"],
-      github: "https://github.com/gitabdelhub/FABRIC_ECOMMERCE_FUNNEL_PROJECT",
-      images: null,
-    },
-    {
       icon: <BarChart2 size={40} strokeWidth={1} />,
       title: "RAGinstein",
       description:
@@ -51,24 +51,6 @@ export function Projects() {
       tech: ["Python", "Gemini API", "ChromaDB", "BM25", "Hybrid Search", "FastAPI"],
       github: "https://github.com/gitabdelhub/RAGinstein-Hybrid-Search-Engine",
       images: null,
-    },
-    {
-      icon: <Zap size={40} strokeWidth={1} />,
-      title: "LiveSport Pipeline (In Progress)",
-      description:
-        "Currently in development. A real-time sports analytics pipeline ingesting live match stats via API, processed with Spark Streaming, and stored in a Databricks Delta Lake for real-time analytics and reporting.",
-      tech: ["Kafka", "Spark Streaming", "Databricks", "Delta Lake", "API-Football"],
-      github: null,
-      images: null,
-    },
-    {
-      icon: <ShieldCheck size={40} strokeWidth={1} />,
-      title: "Secure Cloud Banking",
-      description:
-        "Designed a multi-account AWS architecture for financial and banking systems with 3 isolated VPCs, Identity Federation, and strict network segmentation to minimize breach propagation risks.",
-      tech: ["AWS", "VPC", "Identity Federation", "Cloud Security"],
-      github: null,
-      images: ["/images/secure_cloud_portefolo.jpeg"],
     },
     {
       icon: <Activity size={40} strokeWidth={1} />,
@@ -82,6 +64,24 @@ export function Projects() {
         "/images/doctor_2_portefolo.png",
         "/images/RDV_1_portefolo.png",
       ],
+    },
+    {
+      icon: <ShieldCheck size={40} strokeWidth={1} />,
+      title: "Secure Cloud Banking",
+      description:
+        "Designed a multi-account AWS architecture for financial and banking systems with 3 isolated VPCs, Identity Federation, and strict network segmentation to minimize breach propagation risks.",
+      tech: ["AWS", "VPC", "Identity Federation", "Cloud Security"],
+      github: null,
+      images: ["/images/secure_cloud_portefolo.jpeg"],
+    },
+    {
+      icon: <Zap size={40} strokeWidth={1} />,
+      title: "LiveSport Pipeline (In Progress)",
+      description:
+        "Currently in development. A real-time sports analytics pipeline ingesting live match stats via API, processed with Spark Streaming, and stored in a Databricks Delta Lake for real-time analytics and reporting.",
+      tech: ["Kafka", "Spark Streaming", "Databricks", "Delta Lake", "API-Football"],
+      github: null,
+      images: null,
     },
   ];
 
