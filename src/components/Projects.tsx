@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Github, Database, BrainCircuit, Activity, ShieldCheck, Zap, BarChart2, Cloud, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Github, Database, BrainCircuit, Activity, ShieldCheck, ShoppingCart, Zap, BarChart2, Cloud, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 type Project = {
   icon: JSX.Element;
@@ -32,6 +32,15 @@ export function Projects() {
         "An end-to-end ETL pipeline following the Medallion Architecture. Ingests consumer data via Azure Data Factory, processes it through Bronze/Silver/Gold layers using Databricks (PySpark), and delivers business insights via Power BI.",
       tech: ["Azure Data Factory", "Azure Databricks", "PySpark", "ADLS Gen2", "Power BI"],
       github: "https://github.com/gitabdelhub/azure-etl-pipeline",
+      images: null,
+    },
+    {
+      icon: <ShoppingCart size={40} strokeWidth={1} />,
+      title: "ShopFlow (Microsoft Fabric)",
+      description:
+        "An end-to-end e-commerce funnel analytics platform on Microsoft Fabric. Ingests 15M+ browsing events through a Medallion Architecture (Bronze/Silver/Gold) with PySpark and Delta Lake, models a Star Schema (1 fact table, 4 dimensions), and serves a Power BI conversion funnel dashboard via Direct Lake. Orchestrated with a Fabric Data Pipeline.",
+      tech: ["Microsoft Fabric", "PySpark", "Delta Lake", "Data Pipeline", "Power BI", "Direct Lake"],
+      github: "https://github.com/gitabdelhub/FABRIC_ECOMMERCE_FUNNEL_PROJECT",
       images: null,
     },
     {
